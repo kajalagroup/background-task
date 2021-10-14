@@ -2,7 +2,7 @@ import logging
 from huey.contrib.djhuey import HUEY as huey  # type: ignore
 from django.utils.timezone import now
 import traceback
-
+from backgroundtask.models import BackgroundTask
 
 TASKS_TO_IGNORE = {"run_check"}
 

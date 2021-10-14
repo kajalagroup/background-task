@@ -125,7 +125,7 @@ class BackgroundTaskAdmin(ModelAdminBase):
     def name_link(self, obj):
         assert isinstance(obj, BackgroundTask)
         return mark_safe(
-            f"<a href='/admin/customers/backgroundtask/?name={obj.name}'>{obj.name}</a>"
+            f"<a href='/admin/backgroundtask/backgroundtask/?name={obj.name}'>{obj.name}</a>"
         )
 
     name_link.short_description = _("name")  # type: ignore
@@ -134,7 +134,7 @@ class BackgroundTaskAdmin(ModelAdminBase):
     def task_link(self, obj):
         assert isinstance(obj, BackgroundTask)
         return mark_safe(
-            f"<a href='/admin/customers/backgroundtask/?q={obj.task_id}'>{obj.task_id}</a>"
+            f"<a href='/admin/backgroundtask/backgroundtask/?q={obj.task_id}'>{obj.task_id}</a>"
         )
 
     task_link.short_description = _("task")  # type: ignore

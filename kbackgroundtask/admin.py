@@ -3,7 +3,7 @@ from django.contrib.auth import (
     get_user_model
 )
 from django.utils.translation import gettext as _
-from backgroundtask.models import (
+from kbackgroundtask.models import (
     BackgroundTask,
 )
 from jutil.admin import ModelAdminBase

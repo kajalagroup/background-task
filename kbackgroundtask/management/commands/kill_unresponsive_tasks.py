@@ -1,13 +1,13 @@
 import logging
 from datetime import timedelta
 from typing import List
-from communication.helpers import send_email
-from customers.helpers import csv_to_list
+from kcommunication.helpers import send_email
+from kcommunication.helpers import csv_to_list
 from django.conf import settings
 from django.core.management.base import CommandParser
 from django.utils.html import strip_tags
 from django.utils.timezone import now
-from customers.models import BackgroundTask
+from kbackgroundtask.models import BackgroundTask
 from jutil.command import SafeCommand
 from project.redis_services import get_redis_instance
 

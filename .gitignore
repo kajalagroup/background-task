@@ -1,0 +1,9 @@
+/venv
+/dist
+/build
+/project/settings.py
+__pycache__
+*.log
+*.tmp
+*.pyc
+/db.sqlite3

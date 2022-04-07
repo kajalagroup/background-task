@@ -1,10 +1,10 @@
 Django>=3.2.7
-django-jutil==3.10.2
+django-jutil>=3.8.14
 django-ipware==3.0.2
-lxml==4.6.3
-redis==3.5.3
-huey==2.3.2
-django-redis==5.0.0
-python-dotenv==0.18.0
-django-cryptography==1.0
+lxml>=4.6.3
+redis>=3.5.3
+huey>=2.3.2
+django-redis>=5.0.0
+python-dotenv>=0.18.0
+django-cryptography>=1.0
 

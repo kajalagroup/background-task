@@ -7,3 +7,4 @@ __pycache__
 *.tmp
 *.pyc
 /db.sqlite3
+django_kcommunication.egg-info

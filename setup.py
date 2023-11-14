@@ -13,7 +13,7 @@ install_requires = parse_requirements("requirements.txt", session=False)
 
 setup(
     name="django-kcommunication",
-    version="1.1.6",
+    version="1.1.7",
     author=u"Tuan Bach Van",
     author_email="tuan@kajala.com",
     packages=find_packages(exclude=["project", "venv"]),
